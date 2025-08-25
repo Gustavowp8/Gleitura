@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Lider - Inicio</title>
+</head>
+<body>
+    
+    <header>
+    <div class="logo">MeuSite</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="menu">
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Leituras</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header> <br>
+
+  <h2 style="text-align: center;">Historias</h2>
+
+   <div class="areaCards">
+
+     <div class="grid-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="https://images.pexels.com/photos/15355037/pexels-photo-15355037.jpeg" alt="Perfil 1" />
+      <h2>Sophie Bennett</h2>
+      <p>Product Designer apaixonada por UX.</p>
+      <div class="stats">
+        <div><strong>312</strong><span>Seguidores</span></div>
+        <div><strong>48</strong><span>Posts</span></div>
+      </div>
+      <button class="follow-btn">Seguir</button>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://images.pexels.com/photos/15355036/pexels-photo-15355036.jpeg" alt="Perfil 2" />
+      <h2>Lucas Andrade</h2>
+      <p>Desenvolvedor Full Stack e entusiasta de IA.</p>
+      <div class="stats">
+        <div><strong>210</strong><span>Seguidores</span></div>
+        <div><strong>35</strong><span>Posts</span></div>
+      </div>
+      <button class="follow-btn">Seguir</button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="https://images.pexels.com/photos/19062798/pexels-photo-19062798.jpeg" alt="Perfil 3" />
+      <h2>Marina Costa</h2>
+      <p>Escritora e amante de literatura clássica.</p>
+      <div class="stats">
+        <div><strong>180</strong><span>Seguidores</span></div>
+        <div><strong>22</strong><span>Posts</span></div>
+      </div>
+      <button class="follow-btn">Seguir</button>
+    </div>
+  </div>
+
+   </div>
+
+ <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+
+</body>
+</html>
